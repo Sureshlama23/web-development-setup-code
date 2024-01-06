@@ -1,3 +1,3 @@
 Web development setup code
   <br>
-Author: Suresh Lama
+Author Suresh: Lama
