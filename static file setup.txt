@@ -4,3 +4,10 @@ Static file setup code
 STATIC_URL = "/static/"
 
 STATICFILES_DIRS = [BASE_DIR, "static"]
+
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns = [
+    # ... the rest of your URLconf goes here ...
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
