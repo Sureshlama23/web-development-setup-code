@@ -1,0 +1,8 @@
+What is TinyMCE Editor intergation with News app?
+TinyMCE Editor is When we create an app there is descriptin fields and this helps to edit with value adding multiple 
+useful features like: Heading, underline,Bold etc.
+
+How to use TinyMCE Editor in the Admin section apps?
+To use this TinyMCE Editor download the packege using this command
+
+===>>    pip install django-tinymce        <<===
